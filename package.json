@@ -1,0 +1,38 @@
+{
+  "name": "fritzplatform-config",
+  "version": "1.0.0",
+  "description": "fritzplatform-config",
+  "bin": {
+    "fritzconfig": "./bin/fritzconfig.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeydX/fritzplatform-config.git"
+  },
+  "author": "SeydX (https://github.com/SeydX/fritzplatform-config)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SeydX/fritzplatform-config/issues"
+  },
+  "homepage": "https://github.com/SeydX/fritzplatform-config#readme",
+  "keywords": [
+    "fritz",
+    "fritzbox",
+    "fritz-debug",
+    "debug",
+    "internet",
+    "dsl"
+  ],
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "dependencies": {
+    "caporal": "^1.1.0",
+    "chalk": "^2.4.1",
+    "figlet": "^1.2.1",
+    "clear": "0.1.0",
+    "inquirer": "^6.2.2",
+    "inquirer-checkbox-plus-prompt":"^1.0.1",
+    "json-fs-store":"^1.0.1"
+  }
+}
